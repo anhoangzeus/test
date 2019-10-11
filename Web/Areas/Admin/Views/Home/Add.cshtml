@@ -1,0 +1,83 @@
+﻿@model Models.EF.NguoiDung
+@using (Ajax.BeginForm("Add", "Home", new AjaxOptions
+{
+    HttpMethod = "POST",
+    UpdateTargetId = "div-record",
+    OnSuccess = "$('.close').click()"
+}))
+{
+<div class="modal-body">
+    <div class="row form-group">
+        <div class="col-md-12">
+            <div class="input-group">
+                <span class="input-group-addon">
+                    <i class="fa fa-user-plus"></i>
+                </span>
+                @Html.TextBoxFor(m => m.IDNguoiDung, new { @class = "form-control", @placeholder = "ID User" })
+            </div>
+        </div>
+    </div>
+    <div class="row form-group">
+        <div class="col-md-12">
+            <div class="input-group">
+                <span class="input-group-addon">
+                    <i class="glyphicon glyphicon-calendar"></i>
+                </span>
+                @Html.TextBoxFor(m => m.MatKhau, new { @class = "form-control", @placeholder = "Password" })
+            </div>
+        </div>
+    </div>
+    <div class="row form-group">
+        <div class="col-md-12">
+            <div class="input-group">
+                <span class="input-group-addon">
+                    <i class="fa fa-globe">
+                    </i>
+                </span>
+                @Html.TextBoxFor(m => m.TenNguoiDung, new { @class = "form-control", @placeholder = "Name" })
+            </div>
+        </div>
+    </div>
+    <div class="row form-group">
+        <div class="col-md-12">
+            <div class="input-group">
+                <span class="input-group-addon">
+                    <i class="fa fa-globe">
+                    </i>
+                </span>
+                @Html.TextBoxFor(m => m.DienThoai, new { @class = "form-control", @placeholder = "Phone" })
+            </div>
+        </div>
+    </div>
+    <div class="row form-group">
+        <div class="col-md-12">
+            <div class="input-group">
+                <span class="input-group-addon">
+                    <i class="fa fa-globe">
+                    </i>
+                </span>
+                @Html.TextBoxFor(m => m.email, new { @class = "form-control", @placeholder = "Email" })
+            </div>
+        </div>
+    </div>
+    <div class="row form-group">
+        <div class="col-md-12">
+            <div class="input-group">
+                <span class="input-group-addon">
+                    <i class="fa fa-globe">
+                    </i>
+                </span>
+                @Html.TextBoxFor(m => m.CMND, new { @class = "form-control", @placeholder = "CMND" })
+            </div>
+        </div>
+    </div>
+</div>
+    <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">
+            <i class="fa fa-times"></i>&nbsp;Close
+        </button>
+        <button type="submit" class="btn btn-primary" name="cmd">
+            <i class="fa fa-check"></i>&nbsp;Save
+        </button>
+    </div>
+}

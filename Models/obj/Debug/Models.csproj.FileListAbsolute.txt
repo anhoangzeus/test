@@ -1,0 +1,24 @@
+C:\Users\Tran Long\Desktop\Web\Models\bin\Debug\Models.dll.config
+C:\Users\Tran Long\Desktop\Web\Models\bin\Debug\Models.dll
+C:\Users\Tran Long\Desktop\Web\Models\bin\Debug\Models.pdb
+C:\Users\Tran Long\Desktop\Web\Models\bin\Debug\EntityFramework.dll
+C:\Users\Tran Long\Desktop\Web\Models\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Tran Long\Desktop\Web\Models\bin\Debug\EntityFramework.xml
+C:\Users\Tran Long\Desktop\Web\Models\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Tran Long\Desktop\Web\Models\obj\Debug\Models.csprojAssemblyReference.cache
+C:\Users\Tran Long\Desktop\Web\Models\obj\Debug\Models.csproj.CoreCompileInputs.cache
+C:\Users\Tran Long\Desktop\Web\Models\obj\Debug\Models.csproj.CopyComplete
+C:\Users\Tran Long\Desktop\Web\Models\obj\Debug\Models.dll
+C:\Users\Tran Long\Desktop\Web\Models\obj\Debug\Models.pdb
+L:\WebDienDanGame\Models\bin\Debug\Models.dll.config
+L:\WebDienDanGame\Models\bin\Debug\Models.dll
+L:\WebDienDanGame\Models\bin\Debug\Models.pdb
+L:\WebDienDanGame\Models\bin\Debug\EntityFramework.dll
+L:\WebDienDanGame\Models\bin\Debug\EntityFramework.SqlServer.dll
+L:\WebDienDanGame\Models\bin\Debug\EntityFramework.xml
+L:\WebDienDanGame\Models\bin\Debug\EntityFramework.SqlServer.xml
+L:\WebDienDanGame\Models\obj\Debug\Models.csprojAssemblyReference.cache
+L:\WebDienDanGame\Models\obj\Debug\Models.csproj.CoreCompileInputs.cache
+L:\WebDienDanGame\Models\obj\Debug\Models.csproj.CopyComplete
+L:\WebDienDanGame\Models\obj\Debug\Models.dll
+L:\WebDienDanGame\Models\obj\Debug\Models.pdb

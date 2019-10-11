@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="QLDienDanModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'QLDienDan.dbo.Admins' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="Admins">
+    <Key>
+      <PropertyRef Name="email" />
+      <PropertyRef Name="password" />
+    </Key>
+    <Property Name="email" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="password" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="BaiViet">
+    <Key>
+      <PropertyRef Name="MaBaiViet" />
+    </Key>
+    <Property Name="MaBaiViet" Type="nvarchar" MaxLength="10" Nullable="false" />
+    <Property Name="TenBaiViet" Type="nvarchar" MaxLength="50" />
+    <Property Name="TheLoai" Type="nvarchar" MaxLength="10" />
+    <Property Name="NguoiViet" Type="nvarchar" MaxLength="50" />
+    <Property Name="NgayViet" Type="date" />
+    <Property Name="NoiDung" Type="text" />
+  </EntityType>
+  <EntityType Name="CardGame">
+    <Key>
+      <PropertyRef Name="SeRi" />
+    </Key>
+    <Property Name="SeRi" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="MaNap" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="NPH" Type="nvarchar" MaxLength="50" />
+    <Property Name="MenhGia" Type="float" />
+    <Property Name="HanDung" Type="date" />
+  </EntityType>
+  <EntityType Name="DanhMuc">
+    <Key>
+      <PropertyRef Name="IDDanhMuc" />
+    </Key>
+    <Property Name="IDDanhMuc" Type="nvarchar" MaxLength="10" Nullable="false" />
+    <Property Name="TenDanhMuc" Type="nvarchar" MaxLength="50" />
+    <Property Name="ViTri" Type="nvarchar" MaxLength="10" />
+    <Property Name="SoBaiViet" Type="numeric" Precision="18" Scale="0" />
+  </EntityType>
+  <EntityType Name="NguoiDung">
+    <Key>
+      <PropertyRef Name="IDNguoiDung" />
+    </Key>
+    <Property Name="IDNguoiDung" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="MatKhau" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="TenNguoiDung" Type="nvarchar" MaxLength="50" />
+    <Property Name="DienThoai" Type="float" />
+    <Property Name="email" Type="nvarchar" MaxLength="50" />
+    <Property Name="CMND" Type="nchar" MaxLength="10" />
+  </EntityType>
+  <EntityType Name="QlPhanHoi">
+    <Key>
+      <PropertyRef Name="IDPhanHoi" />
+    </Key>
+    <Property Name="IDPhanHoi" Type="nvarchar" MaxLength="10" Nullable="false" />
+    <Property Name="IDNguoiPH" Type="nvarchar" MaxLength="20" />
+    <Property Name="TenNguoiPH" Type="nvarchar" MaxLength="50" />
+    <Property Name="NoiDung" Type="text" />
+    <Property Name="NgayGui" Type="date" />
+    <Property Name="Email" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="QlTuongTac">
+    <Key>
+      <PropertyRef Name="Ngay" />
+    </Key>
+    <Property Name="Ngay" Type="date" Nullable="false" />
+    <Property Name="IDBaiViet" Type="nvarchar" MaxLength="10" Nullable="false" />
+    <Property Name="SoTT" Type="float" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <Association Name="FK_BaiViet_DanhMuc">
+    <End Role="DanhMuc" Type="Self.DanhMuc" Multiplicity="0..1" />
+    <End Role="BaiViet" Type="Self.BaiViet" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DanhMuc">
+        <PropertyRef Name="IDDanhMuc" />
+      </Principal>
+      <Dependent Role="BaiViet">
+        <PropertyRef Name="TheLoai" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_QlPhanHoi_NguoiDung">
+    <End Role="NguoiDung" Type="Self.NguoiDung" Multiplicity="0..1" />
+    <End Role="QlPhanHoi" Type="Self.QlPhanHoi" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="NguoiDung">
+        <PropertyRef Name="IDNguoiDung" />
+      </Principal>
+      <Dependent Role="QlPhanHoi">
+        <PropertyRef Name="IDNguoiPH" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_QlTuongTac_BaiViet">
+    <End Role="BaiViet" Type="Self.BaiViet" Multiplicity="1" />
+    <End Role="QlTuongTac" Type="Self.QlTuongTac" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="BaiViet">
+        <PropertyRef Name="MaBaiViet" />
+      </Principal>
+      <Dependent Role="QlTuongTac">
+        <PropertyRef Name="IDBaiViet" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="QLDienDanModelStoreContainer">
+    <EntitySet Name="BaiViet" EntityType="Self.BaiViet" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="CardGame" EntityType="Self.CardGame" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="DanhMuc" EntityType="Self.DanhMuc" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="NguoiDung" EntityType="Self.NguoiDung" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="QlPhanHoi" EntityType="Self.QlPhanHoi" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="QlTuongTac" EntityType="Self.QlTuongTac" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Admins" EntityType="Self.Admins" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [Admins].[email] AS [email], 
+    [Admins].[password] AS [password]
+    FROM [dbo].[Admins] AS [Admins]</DefiningQuery>
+    </EntitySet>
+    <AssociationSet Name="FK_BaiViet_DanhMuc" Association="Self.FK_BaiViet_DanhMuc">
+      <End Role="DanhMuc" EntitySet="DanhMuc" />
+      <End Role="BaiViet" EntitySet="BaiViet" />
+    </AssociationSet>
+    <AssociationSet Name="FK_QlPhanHoi_NguoiDung" Association="Self.FK_QlPhanHoi_NguoiDung">
+      <End Role="NguoiDung" EntitySet="NguoiDung" />
+      <End Role="QlPhanHoi" EntitySet="QlPhanHoi" />
+    </AssociationSet>
+    <AssociationSet Name="FK_QlTuongTac_BaiViet" Association="Self.FK_QlTuongTac_BaiViet">
+      <End Role="BaiViet" EntitySet="BaiViet" />
+      <End Role="QlTuongTac" EntitySet="QlTuongTac" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

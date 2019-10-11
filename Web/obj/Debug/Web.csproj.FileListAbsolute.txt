@@ -1,0 +1,174 @@
+C:\Users\Tran Long\Desktop\Web\Web\bin\Web.dll.config
+C:\Users\Tran Long\Desktop\Web\Web\bin\Web.dll
+C:\Users\Tran Long\Desktop\Web\Web\bin\Web.pdb
+C:\Users\Tran Long\Desktop\Web\Web\bin\roslyn\csc.exe
+C:\Users\Tran Long\Desktop\Web\Web\bin\roslyn\csc.exe.config
+C:\Users\Tran Long\Desktop\Web\Web\bin\roslyn\csc.rsp
+C:\Users\Tran Long\Desktop\Web\Web\bin\roslyn\csi.exe
+C:\Users\Tran Long\Desktop\Web\Web\bin\roslyn\csi.exe.config
+C:\Users\Tran Long\Desktop\Web\Web\bin\roslyn\csi.rsp
+C:\Users\Tran Long\Desktop\Web\Web\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Tran Long\Desktop\Web\Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Tran Long\Desktop\Web\Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Tran Long\Desktop\Web\Web\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Tran Long\Desktop\Web\Web\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Tran Long\Desktop\Web\Web\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Tran Long\Desktop\Web\Web\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Tran Long\Desktop\Web\Web\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Tran Long\Desktop\Web\Web\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Tran Long\Desktop\Web\Web\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Tran Long\Desktop\Web\Web\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Tran Long\Desktop\Web\Web\bin\roslyn\System.AppContext.dll
+C:\Users\Tran Long\Desktop\Web\Web\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Tran Long\Desktop\Web\Web\bin\roslyn\System.Console.dll
+C:\Users\Tran Long\Desktop\Web\Web\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Tran Long\Desktop\Web\Web\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Tran Long\Desktop\Web\Web\bin\roslyn\System.IO.Compression.dll
+C:\Users\Tran Long\Desktop\Web\Web\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Tran Long\Desktop\Web\Web\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Tran Long\Desktop\Web\Web\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Tran Long\Desktop\Web\Web\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Tran Long\Desktop\Web\Web\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Tran Long\Desktop\Web\Web\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Tran Long\Desktop\Web\Web\bin\roslyn\System.Security.Claims.dll
+C:\Users\Tran Long\Desktop\Web\Web\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Tran Long\Desktop\Web\Web\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Tran Long\Desktop\Web\Web\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Tran Long\Desktop\Web\Web\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Tran Long\Desktop\Web\Web\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Tran Long\Desktop\Web\Web\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Tran Long\Desktop\Web\Web\bin\roslyn\System.ValueTuple.dll
+C:\Users\Tran Long\Desktop\Web\Web\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Tran Long\Desktop\Web\Web\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Tran Long\Desktop\Web\Web\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Tran Long\Desktop\Web\Web\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Tran Long\Desktop\Web\Web\bin\roslyn\vbc.exe
+C:\Users\Tran Long\Desktop\Web\Web\bin\roslyn\vbc.exe.config
+C:\Users\Tran Long\Desktop\Web\Web\bin\roslyn\vbc.rsp
+C:\Users\Tran Long\Desktop\Web\Web\bin\roslyn\VBCSCompiler.exe
+C:\Users\Tran Long\Desktop\Web\Web\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Tran Long\Desktop\Web\Web\bin\Antlr3.Runtime.dll
+C:\Users\Tran Long\Desktop\Web\Web\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\Tran Long\Desktop\Web\Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Tran Long\Desktop\Web\Web\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Tran Long\Desktop\Web\Web\bin\Newtonsoft.Json.dll
+C:\Users\Tran Long\Desktop\Web\Web\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Tran Long\Desktop\Web\Web\bin\System.Web.Helpers.dll
+C:\Users\Tran Long\Desktop\Web\Web\bin\System.Web.Mvc.dll
+C:\Users\Tran Long\Desktop\Web\Web\bin\System.Web.Optimization.dll
+C:\Users\Tran Long\Desktop\Web\Web\bin\System.Web.Razor.dll
+C:\Users\Tran Long\Desktop\Web\Web\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Tran Long\Desktop\Web\Web\bin\System.Web.WebPages.dll
+C:\Users\Tran Long\Desktop\Web\Web\bin\System.Web.WebPages.Razor.dll
+C:\Users\Tran Long\Desktop\Web\Web\bin\WebGrease.dll
+C:\Users\Tran Long\Desktop\Web\Web\bin\System.Web.Helpers.xml
+C:\Users\Tran Long\Desktop\Web\Web\bin\System.Web.Mvc.xml
+C:\Users\Tran Long\Desktop\Web\Web\bin\System.Web.Optimization.xml
+C:\Users\Tran Long\Desktop\Web\Web\bin\System.Web.Razor.xml
+C:\Users\Tran Long\Desktop\Web\Web\bin\System.Web.WebPages.xml
+C:\Users\Tran Long\Desktop\Web\Web\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Tran Long\Desktop\Web\Web\bin\System.Web.WebPages.Razor.xml
+C:\Users\Tran Long\Desktop\Web\Web\bin\Newtonsoft.Json.xml
+C:\Users\Tran Long\Desktop\Web\Web\bin\Antlr3.Runtime.pdb
+C:\Users\Tran Long\Desktop\Web\Web\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Tran Long\Desktop\Web\Web\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\Tran Long\Desktop\Web\Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Tran Long\Desktop\Web\Web\obj\Debug\Web.csprojAssemblyReference.cache
+C:\Users\Tran Long\Desktop\Web\Web\obj\Debug\Web.csproj.CoreCompileInputs.cache
+C:\Users\Tran Long\Desktop\Web\Web\obj\Debug\Web.csproj.CopyComplete
+C:\Users\Tran Long\Desktop\Web\Web\obj\Debug\Web.dll
+C:\Users\Tran Long\Desktop\Web\Web\obj\Debug\Web.pdb
+C:\Users\Tran Long\Desktop\Web\Web\bin\EntityFramework.dll
+C:\Users\Tran Long\Desktop\Web\Web\bin\EntityFramework.SqlServer.dll
+C:\Users\Tran Long\Desktop\Web\Web\bin\EntityFramework.xml
+C:\Users\Tran Long\Desktop\Web\Web\bin\EntityFramework.SqlServer.xml
+C:\Users\Tran Long\Desktop\Web\Web\bin\Models.dll
+C:\Users\Tran Long\Desktop\Web\Web\bin\Models.pdb
+C:\Users\Tran Long\Desktop\Web\Web\bin\Models.dll.config
+L:\WebDienDanGame\Web\bin\Web.dll.config
+L:\WebDienDanGame\Web\bin\Web.dll
+L:\WebDienDanGame\Web\bin\Web.pdb
+L:\WebDienDanGame\Web\bin\roslyn\csc.exe
+L:\WebDienDanGame\Web\bin\roslyn\csc.exe.config
+L:\WebDienDanGame\Web\bin\roslyn\csc.rsp
+L:\WebDienDanGame\Web\bin\roslyn\csi.exe
+L:\WebDienDanGame\Web\bin\roslyn\csi.exe.config
+L:\WebDienDanGame\Web\bin\roslyn\csi.rsp
+L:\WebDienDanGame\Web\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+L:\WebDienDanGame\Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+L:\WebDienDanGame\Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+L:\WebDienDanGame\Web\bin\roslyn\Microsoft.CodeAnalysis.dll
+L:\WebDienDanGame\Web\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+L:\WebDienDanGame\Web\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+L:\WebDienDanGame\Web\bin\roslyn\Microsoft.CSharp.Core.targets
+L:\WebDienDanGame\Web\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+L:\WebDienDanGame\Web\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+L:\WebDienDanGame\Web\bin\roslyn\Microsoft.Managed.Core.targets
+L:\WebDienDanGame\Web\bin\roslyn\Microsoft.VisualBasic.Core.targets
+L:\WebDienDanGame\Web\bin\roslyn\System.AppContext.dll
+L:\WebDienDanGame\Web\bin\roslyn\System.Collections.Immutable.dll
+L:\WebDienDanGame\Web\bin\roslyn\System.Console.dll
+L:\WebDienDanGame\Web\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+L:\WebDienDanGame\Web\bin\roslyn\System.Diagnostics.StackTrace.dll
+L:\WebDienDanGame\Web\bin\roslyn\System.IO.Compression.dll
+L:\WebDienDanGame\Web\bin\roslyn\System.IO.FileSystem.dll
+L:\WebDienDanGame\Web\bin\roslyn\System.IO.FileSystem.Primitives.dll
+L:\WebDienDanGame\Web\bin\roslyn\System.IO.Pipes.AccessControl.dll
+L:\WebDienDanGame\Web\bin\roslyn\System.IO.Pipes.dll
+L:\WebDienDanGame\Web\bin\roslyn\System.Reflection.Metadata.dll
+L:\WebDienDanGame\Web\bin\roslyn\System.Security.AccessControl.dll
+L:\WebDienDanGame\Web\bin\roslyn\System.Security.Claims.dll
+L:\WebDienDanGame\Web\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+L:\WebDienDanGame\Web\bin\roslyn\System.Security.Cryptography.Encoding.dll
+L:\WebDienDanGame\Web\bin\roslyn\System.Security.Cryptography.Primitives.dll
+L:\WebDienDanGame\Web\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+L:\WebDienDanGame\Web\bin\roslyn\System.Security.Principal.Windows.dll
+L:\WebDienDanGame\Web\bin\roslyn\System.Text.Encoding.CodePages.dll
+L:\WebDienDanGame\Web\bin\roslyn\System.ValueTuple.dll
+L:\WebDienDanGame\Web\bin\roslyn\System.Xml.ReaderWriter.dll
+L:\WebDienDanGame\Web\bin\roslyn\System.Xml.XmlDocument.dll
+L:\WebDienDanGame\Web\bin\roslyn\System.Xml.XPath.dll
+L:\WebDienDanGame\Web\bin\roslyn\System.Xml.XPath.XDocument.dll
+L:\WebDienDanGame\Web\bin\roslyn\vbc.exe
+L:\WebDienDanGame\Web\bin\roslyn\vbc.exe.config
+L:\WebDienDanGame\Web\bin\roslyn\vbc.rsp
+L:\WebDienDanGame\Web\bin\roslyn\VBCSCompiler.exe
+L:\WebDienDanGame\Web\bin\roslyn\VBCSCompiler.exe.config
+L:\WebDienDanGame\Web\bin\Antlr3.Runtime.dll
+L:\WebDienDanGame\Web\bin\EntityFramework.dll
+L:\WebDienDanGame\Web\bin\EntityFramework.SqlServer.dll
+L:\WebDienDanGame\Web\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+L:\WebDienDanGame\Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+L:\WebDienDanGame\Web\bin\Microsoft.Web.Infrastructure.dll
+L:\WebDienDanGame\Web\bin\Models.dll
+L:\WebDienDanGame\Web\bin\Newtonsoft.Json.dll
+L:\WebDienDanGame\Web\bin\System.Diagnostics.DiagnosticSource.dll
+L:\WebDienDanGame\Web\bin\System.Web.Helpers.dll
+L:\WebDienDanGame\Web\bin\System.Web.Mvc.dll
+L:\WebDienDanGame\Web\bin\System.Web.Optimization.dll
+L:\WebDienDanGame\Web\bin\System.Web.Razor.dll
+L:\WebDienDanGame\Web\bin\System.Web.WebPages.Deployment.dll
+L:\WebDienDanGame\Web\bin\System.Web.WebPages.dll
+L:\WebDienDanGame\Web\bin\System.Web.WebPages.Razor.dll
+L:\WebDienDanGame\Web\bin\WebGrease.dll
+L:\WebDienDanGame\Web\bin\Models.pdb
+L:\WebDienDanGame\Web\bin\Models.dll.config
+L:\WebDienDanGame\Web\bin\EntityFramework.xml
+L:\WebDienDanGame\Web\bin\EntityFramework.SqlServer.xml
+L:\WebDienDanGame\Web\bin\System.Web.Helpers.xml
+L:\WebDienDanGame\Web\bin\System.Web.Mvc.xml
+L:\WebDienDanGame\Web\bin\System.Web.Optimization.xml
+L:\WebDienDanGame\Web\bin\System.Web.Razor.xml
+L:\WebDienDanGame\Web\bin\System.Web.WebPages.xml
+L:\WebDienDanGame\Web\bin\System.Web.WebPages.Deployment.xml
+L:\WebDienDanGame\Web\bin\System.Web.WebPages.Razor.xml
+L:\WebDienDanGame\Web\bin\Newtonsoft.Json.xml
+L:\WebDienDanGame\Web\bin\Antlr3.Runtime.pdb
+L:\WebDienDanGame\Web\bin\System.Diagnostics.DiagnosticSource.xml
+L:\WebDienDanGame\Web\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+L:\WebDienDanGame\Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+L:\WebDienDanGame\Web\obj\Debug\Web.csprojAssemblyReference.cache
+L:\WebDienDanGame\Web\obj\Debug\Web.csproj.CoreCompileInputs.cache
+L:\WebDienDanGame\Web\obj\Debug\Web.csproj.CopyComplete
+L:\WebDienDanGame\Web\obj\Debug\Web.dll
+L:\WebDienDanGame\Web\obj\Debug\Web.pdb

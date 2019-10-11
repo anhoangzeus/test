@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="QLDienDanModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="BaiViet">
+    <Key>
+      <PropertyRef Name="MaBaiViet" />
+    </Key>
+    <Property Name="MaBaiViet" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="TenBaiViet" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="TheLoai" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="NguoiViet" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="NgayViet" Type="DateTime" Precision="0" />
+    <Property Name="NoiDung" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="DanhMuc" Relationship="Self.FK_BaiViet_DanhMuc" FromRole="BaiViet" ToRole="DanhMuc" />
+    <NavigationProperty Name="QlTuongTacs" Relationship="Self.FK_QlTuongTac_BaiViet" FromRole="BaiViet" ToRole="QlTuongTac" />
+  </EntityType>
+  <EntityType Name="CardGame">
+    <Key>
+      <PropertyRef Name="SeRi" />
+    </Key>
+    <Property Name="SeRi" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="MaNap" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="NPH" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MenhGia" Type="Double" />
+    <Property Name="HanDung" Type="DateTime" Precision="0" />
+  </EntityType>
+  <EntityType Name="DanhMuc">
+    <Key>
+      <PropertyRef Name="IDDanhMuc" />
+    </Key>
+    <Property Name="IDDanhMuc" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="TenDanhMuc" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ViTri" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="SoBaiViet" Type="Decimal" Precision="18" Scale="0" />
+    <NavigationProperty Name="BaiViets" Relationship="Self.FK_BaiViet_DanhMuc" FromRole="DanhMuc" ToRole="BaiViet" />
+  </EntityType>
+  <EntityType Name="NguoiDung">
+    <Key>
+      <PropertyRef Name="IDNguoiDung" />
+    </Key>
+    <Property Name="IDNguoiDung" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="MatKhau" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="TenNguoiDung" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="DienThoai" Type="Double" />
+    <Property Name="email" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="CMND" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <NavigationProperty Name="QlPhanHois" Relationship="Self.FK_QlPhanHoi_NguoiDung" FromRole="NguoiDung" ToRole="QlPhanHoi" />
+  </EntityType>
+  <EntityType Name="QlPhanHoi">
+    <Key>
+      <PropertyRef Name="IDPhanHoi" />
+    </Key>
+    <Property Name="IDPhanHoi" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="IDNguoiPH" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="TenNguoiPH" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="NoiDung" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="NgayGui" Type="DateTime" Precision="0" />
+    <Property Name="Email" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="NguoiDung" Relationship="Self.FK_QlPhanHoi_NguoiDung" FromRole="QlPhanHoi" ToRole="NguoiDung" />
+  </EntityType>
+  <EntityType Name="QlTuongTac">
+    <Key>
+      <PropertyRef Name="Ngay" />
+    </Key>
+    <Property Name="Ngay" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="IDBaiViet" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="SoTT" Type="Double" />
+    <NavigationProperty Name="BaiViet" Relationship="Self.FK_QlTuongTac_BaiViet" FromRole="QlTuongTac" ToRole="BaiViet" />
+  </EntityType>
+  <EntityType Name="sysdiagram">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Admin">
+    <Key>
+      <PropertyRef Name="email" />
+      <PropertyRef Name="password" />
+    </Key>
+    <Property Name="email" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="password" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_BaiViet_DanhMuc">
+    <End Role="DanhMuc" Type="Self.DanhMuc" Multiplicity="0..1" />
+    <End Role="BaiViet" Type="Self.BaiViet" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DanhMuc">
+        <PropertyRef Name="IDDanhMuc" />
+      </Principal>
+      <Dependent Role="BaiViet">
+        <PropertyRef Name="TheLoai" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_QlTuongTac_BaiViet">
+    <End Role="BaiViet" Type="Self.BaiViet" Multiplicity="1" />
+    <End Role="QlTuongTac" Type="Self.QlTuongTac" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="BaiViet">
+        <PropertyRef Name="MaBaiViet" />
+      </Principal>
+      <Dependent Role="QlTuongTac">
+        <PropertyRef Name="IDBaiViet" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_QlPhanHoi_NguoiDung">
+    <End Role="NguoiDung" Type="Self.NguoiDung" Multiplicity="0..1" />
+    <End Role="QlPhanHoi" Type="Self.QlPhanHoi" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="NguoiDung">
+        <PropertyRef Name="IDNguoiDung" />
+      </Principal>
+      <Dependent Role="QlPhanHoi">
+        <PropertyRef Name="IDNguoiPH" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="QLDienDanEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="BaiViets" EntityType="Self.BaiViet" />
+    <EntitySet Name="CardGames" EntityType="Self.CardGame" />
+    <EntitySet Name="DanhMucs" EntityType="Self.DanhMuc" />
+    <EntitySet Name="NguoiDungs" EntityType="Self.NguoiDung" />
+    <EntitySet Name="QlPhanHois" EntityType="Self.QlPhanHoi" />
+    <EntitySet Name="QlTuongTacs" EntityType="Self.QlTuongTac" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagram" />
+    <EntitySet Name="Admins" EntityType="Self.Admin" />
+    <AssociationSet Name="FK_BaiViet_DanhMuc" Association="Self.FK_BaiViet_DanhMuc">
+      <End Role="DanhMuc" EntitySet="DanhMucs" />
+      <End Role="BaiViet" EntitySet="BaiViets" />
+    </AssociationSet>
+    <AssociationSet Name="FK_QlTuongTac_BaiViet" Association="Self.FK_QlTuongTac_BaiViet">
+      <End Role="BaiViet" EntitySet="BaiViets" />
+      <End Role="QlTuongTac" EntitySet="QlTuongTacs" />
+    </AssociationSet>
+    <AssociationSet Name="FK_QlPhanHoi_NguoiDung" Association="Self.FK_QlPhanHoi_NguoiDung">
+      <End Role="NguoiDung" EntitySet="NguoiDungs" />
+      <End Role="QlPhanHoi" EntitySet="QlPhanHois" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
