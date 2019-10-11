@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Web_ForumModelStoreContainer" CdmEntityContainer="Web_ForumEntitiess">
+    <EntitySetMapping Name="Siteusers">
+      <EntityTypeMapping TypeName="Web_ForumModel.Siteuser">
+        <MappingFragment StoreEntitySet="Siteuser">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="pass" ColumnName="pass" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
